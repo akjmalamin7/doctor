@@ -355,6 +355,7 @@ input::placeholder, select option{
 .hospital-list-section .container{
 	padding-left:4px !important;
 	padding-right:4px !important;
+	padding-bottom:63px !important;
 }
 .hospital .card {
 	border-radius:3px !important;
