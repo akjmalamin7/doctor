@@ -351,6 +351,11 @@ input::placeholder, select option{
 .hospital-list-section{
 	background-color:#3C9E57;
 	width:100%;
+	min-height: 100vh;
+}
+.doctor-details-heading{
+	font-size:16px;
+	margin:3px 0;
 }
 .hospital-list-section .container{
 	padding-left:4px !important;
