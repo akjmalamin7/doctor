@@ -1,0 +1,413 @@
+/* *************************************************************************************************
+******************************************    START GLOBAL AREA CSS   ******************************
+****************************************************************************************************/
+*{
+    box-sizing:border-box;
+}
+html{
+	overflow-x: hidden;
+	width:100%;
+}
+body {
+	width: 100%;
+	overflow-x: hidden;
+	font-family: 'Bangla', Arial, sans-serif !important;
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background: #F5F5F6;
+}
+
+a:hover{
+	text-decoration:none;
+}
+p, h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding:0;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+/* HEADING STYLE */
+
+h5{
+    font-weight: 600;
+    font-style: normal;
+}
+.header-bg {
+	background-color: #166E2F !important;
+	padding: 7px 0 !important;
+}
+.section-padding{
+    padding:20px 0 !important;
+}
+
+/* SECTION TITLE */
+
+
+.section-title p {
+	font-size: 18px;
+	max-width: 780px;
+	margin: 0 auto;
+	line-height: 23px;
+}
+.mt-70{
+    margin-top:70px;
+}
+
+/* FORM STYLE */
+input, textarea, select{
+	border-radius: 0px !important;
+	border:none !important;
+	border-bottom:1px solid #a0a0a0 !important;
+}
+input:focus{
+    outline: 0 none !important;
+    -webkit-box-shadow: unset !important;
+			box-shadow: unset !important;
+			border-bottom:1px solid #EE4994 !important;
+}
+select{
+	border-radius: 0px !important;
+	border:1px solid #a0a0a0 !important;
+}
+select:focus{
+	border:1px solid #EE4994 !important;
+	-webkit-box-shadow: unset !important;
+	box-shadow: unset !important;
+}
+button{
+	border:none !important;
+	border-radius:none !important;
+	background:none !important;
+
+}
+button:focus{
+	border:none !important;
+	-webkit-box-shadow: unset !important;
+	box-shadow: unset !important;
+}
+input::placeholder, select option{
+	font-family: 'Source Sans Pro' !important;
+	font-weight: 400;
+}
+::placeholder{
+	font-size:16px;
+}
+.custom-select {
+	display: inline-block;
+	width: 100%;
+	padding: 5px 5px;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	height:unset;
+
+}
+/* fixed header */
+.fixed-header {
+	background: #fff !important;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+	transition: .5s;
+	/* box-shadow: 0px 1px 19px rgba(0,0,0,.1); */
+}
+.modal-backdrop {
+	z-index: 99;
+}
+.mb-75{
+	margin-bottom: 75px;
+}
+/***************************************************************************************************
+******************************************* END GLOBAL AREA CSS ************************************
+****************************************************************************************************/
+
+
+/***************************************************************************************************
+***************************************START HEADER SECTION CSS*************************************
+****************************************************************************************************/
+.header-section {
+	padding: 0px 0;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,.1);
+}
+.logo-size{
+	width:70px;
+}
+.logo-size-mobile{
+	width:32px;
+}
+#mynav{
+	position: absolute;
+}
+
+.menu-button {
+	display: flex;
+	flex-direction: column;
+}
+.menu-button span {
+	color: #fff;
+	font-weight: 500;
+	font-size: 14px;
+	opacity: 1 !important;
+}
+.menu-button i {
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 5px;
+}	
+.modal-area{
+	display:inline-block;
+}
+
+/***************************************************************************************************
+*****************************************END HEADER SECTION CSS*************************************
+****************************************************************************************************/
+
+
+
+/***************************************************************************************************
+****************************************** START HOME PAGE CSS**************************************
+****************************************************************************************************/
+
+/* start home slider section */
+.home-slider{
+	width:100%;
+	position: relative;
+}
+.home-slider::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #333;
+	top: 0;
+	left: 0;
+	opacity: .4;
+}
+.home-slick-slider{
+	position: relative;
+}
+.home-slider-section .home-slick-slider img{
+	width:100%;
+	height:100%;
+	object-fit: cover;
+}
+.slick-dots {
+	z-index: 99;
+}
+
+.slick-dots li button::before {
+	font-size: 35px !important;
+	color: #000;
+}
+.slick-dots li.slick-active button::before {
+	opacity: .75;
+	color:#000;
+}
+
+.slick-dots li {
+	margin: unset !important;
+}
+/* end home slider section */
+
+/* start heading */
+.home-page-heading-area {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2px 15px;
+	background: #fff;
+}
+.home-page-heading-area .heading-text{
+	width:70%;
+	text-align: center;
+}
+.home-page-heading-area .heading-text h6 {
+	margin-bottom: 0 !important;
+	font-weight: 600 !important;
+	font-size: 20px;
+	line-height: 27px;
+	color: #3D9954;
+	text-align: right;
+	padding: 3px 0;
+}
+.home-page-heading-area .heading-icon{
+	width:30%;
+	text-align: right;
+}
+.home-page-heading-area .heading-icon i{
+	line-height: 33px;
+}
+/* end heading */
+
+/* menu */
+
+.menu-item .menu-icon i{
+	font-size:14px;
+	color:#fff;
+}
+.menu-item .menu-text{
+	line-height: 10px;
+}
+.menu-item .menu-text a {
+	font-size: 14px;
+	font-weight: 500;
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+}
+/* menu */
+
+
+/* start prodcut category section */
+
+
+.single-product-area .card {
+	background-color: #fff;
+	border: 0px !important;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,.1);
+	border-radius: 0px !important;
+	margin-bottom: 27px;
+	margin: 10px;
+	overflow: hidden;
+	border-radius: 5px !important;
+}
+.single-product-area .card .card-image {
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+	margin-top: 9px;
+}
+.single-product-area .card .card-image img{
+	width:100%;
+	height:100%;
+	border-radius: 500%;;
+}
+.single-product-area .card .card-body h5 {
+	color: #fff !important;
+	font-size: 18px;
+	font-weight: bold;
+	font-weight: 500;
+}
+/* .product-height {
+	height: 125px;
+} */
+
+/* .item-6 {
+	width: 49%;
+	margin-bottom: 10px;
+}
+.product-category-area {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+} */
+/* end prodcut category section */
+.slick-prev, .slick-next {
+	display: none !important;
+}
+
+
+/* single product */
+.single-product-area .card .card-body{
+	padding: 5px;
+	margin-top: 30px;
+	background: #32994EF2;
+}
+/***************************************************************************************************
+****************************************** END HOME PAGE CSS  **************************************
+****************************************************************************************************/
+
+
+
+/***************************************************************************************************
+*************************************************START DOCTOR CATEGORY CSS**************************
+****************************************************************************************************/
+.doctor-category-heading h6{
+	font-size:14px;
+	font-weight: 600;
+	color:#166E2F;
+	line-height: 30px;
+}
+/***************************************************************************************************
+*************************************************END DOCTOR CATEGORY CSS****************************
+****************************************************************************************************/
+
+
+/***************************************************************************************************
+************************************************* START HOSPITAL PAGE****************************
+****************************************************************************************************/
+.hospital-list-section{
+	background-color:#3C9E57;
+	width:100%;
+}
+.hospital-list-section .container{
+	padding-left:4px !important;
+	padding-right:4px !important;
+}
+.hospital .card {
+	border-radius:3px !important;
+	border:none !important;
+}
+.hospital .card .card-body{
+	padding:10px !important;
+}
+.hospital-heading{
+	display: flex;
+}
+.hospital .card .hospital-heading h5 {
+	color: #166E2F !important;
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 2px;
+}
+.hospital .card .hospital-heading span i, .hospital .card .hospital-location span i, .hospital .card .contact-hospital span i{
+	color: #EB3334;
+	font-size: 17px;
+	margin-right: 6px;
+}
+
+.hospital .card .hospital-location {
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.hospital-location p {
+	font-size: 14px;
+	margin-top: 4px;
+	color: #716C6C;
+	font-weight: 600;
+}
+.hospital .card .contact-hospital{
+	display: flex;
+}
+.hospital .card .contact-hospital .number {
+	font-size: 13px;
+	color: #716C6C;
+	font-weight: 600;
+	margin-top: 5px;
+	margin-right: 24px;
+	letter-spacing: .3px;
+}
+.show-doctor-btn {
+	background: #166E2F;
+	display: block;
+	color: #fff;
+	padding: 0px 31px;
+	font-size: 14px;
+	margin-top: 2px;
+}
+/***************************************************************************************************
+************************************************* END HOSPITAL PAGE****************************
+****************************************************************************************************/

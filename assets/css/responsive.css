@@ -1,0 +1,11 @@
+@media(max-width:396px){
+    .product-height {
+        /* height: 150px; */
+    }
+}
+@media(max-width:340px){
+    .clear-cart-button a{
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+}
