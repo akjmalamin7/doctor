@@ -392,6 +392,11 @@ input::placeholder, select option{
 }
 .hospital .card .contact-hospital{
 	display: flex;
+	position: relative;
+}
+.doctor-btn-area{
+	position: absolute;
+	right:0;
 }
 .hospital .card .contact-hospital .number {
 	font-size: 13px;
