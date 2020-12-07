@@ -369,7 +369,7 @@ input::placeholder, select option{
 .hospital .card .hospital-heading h5 {
 	color: #166E2F !important;
 	font-size: 18px;
-	font-weight: 500;
+	font-weight: 600;
 	margin-top: 2px;
 }
 .hospital .card .hospital-heading span i, .hospital .card .hospital-location span i, .hospital .card .contact-hospital span i{
@@ -380,8 +380,8 @@ input::placeholder, select option{
 
 .hospital .card .hospital-location {
 	display: flex;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 6px;
+	margin-bottom: 7px;
 }
 .hospital-location p {
 	font-size: 14px;
