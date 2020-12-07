@@ -369,7 +369,7 @@ input::placeholder, select option{
 }
 .hospital .card .hospital-heading h5 {
 	color: #166E2F !important;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 600;
 	margin-top: 2px;
 }
@@ -405,7 +405,7 @@ input::placeholder, select option{
 	background: #166E2F;
 	display: block;
 	color: #fff;
-	padding: 0px 31px;
+	padding: .9px 38px;
 	font-size: 14px;
 	margin-top: 2px;
 }
