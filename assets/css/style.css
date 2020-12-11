@@ -66,19 +66,20 @@ input, textarea, select{
 	border-radius: 0px !important;
 	border:none !important;
 	border-bottom:1px solid #a0a0a0 !important;
+	width:100%;
 }
 input:focus{
     outline: 0 none !important;
     -webkit-box-shadow: unset !important;
 			box-shadow: unset !important;
-			border-bottom:1px solid #EE4994 !important;
+			border-bottom:1px solid #3A9A55 !important;
 }
 select{
 	border-radius: 0px !important;
 	border:1px solid #a0a0a0 !important;
 }
 select:focus{
-	border:1px solid #EE4994 !important;
+	border:1px solid #3A9A55 !important;
 	-webkit-box-shadow: unset !important;
 	box-shadow: unset !important;
 }
@@ -98,7 +99,10 @@ input::placeholder, select option{
 	font-weight: 400;
 }
 ::placeholder{
-	font-size:16px;
+	font-size:11px;
+}
+textarea::placeholder{
+	font-size:11px;
 }
 .custom-select {
 	display: inline-block;
@@ -303,16 +307,7 @@ input::placeholder, select option{
 	height: 125px;
 } */
 
-/* .item-6 {
-	width: 49%;
-	margin-bottom: 10px;
-}
-.product-category-area {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	flex-wrap: wrap;
-} */
+
 /* end prodcut category section */
 .slick-prev, .slick-next {
 	display: none !important;
@@ -334,6 +329,11 @@ input::placeholder, select option{
 /***************************************************************************************************
 *************************************************START DOCTOR CATEGORY CSS**************************
 ****************************************************************************************************/
+.doctor-catergory-section {
+	background-color: #3C9E57;
+	width: 100%;
+	min-height: 100vh;
+}
 .doctor-category-heading h6{
 	font-size:14px;
 	font-weight: 600;
@@ -419,6 +419,46 @@ input::placeholder, select option{
 	font-size: 14px;
 	margin-top: 2px;
 }
+
 /***************************************************************************************************
 ************************************************* END HOSPITAL PAGE****************************
+****************************************************************************************************/
+
+/***************************************************************************************************
+************************************************* START APPOINTMENT PAGE****************************
+****************************************************************************************************/
+.card-header{
+	background-color:#fff !important;
+}
+.appointment-form {
+	margin-top: 15px;
+}
+.appointment-form form button{
+	font-size: 15px;
+	background: #3B9B55 !important;
+	color: #fff;
+	padding: 4px 20px;
+	border-radius: 8px;
+}
+.appointment-form form .serial-btn{
+	text-align: center;
+}
+.appointment-form form textarea::placeholder{
+	font-size:16px;
+}
+.appointment-form.ambulance form  textarea{
+	padding-left:27px !important;
+}
+.appointment-icon{
+	position: absolute;
+}
+.appointment-icon i {
+	color: #EC4445;
+	font-size: 17px;
+}
+.appointment-form.ambulance  form .form-group input{
+	padding-left:28px;
+}
+/***************************************************************************************************
+************************************************* END APPOINTMENT PAGE****************************
 ****************************************************************************************************/
